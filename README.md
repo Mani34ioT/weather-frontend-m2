@@ -13,4 +13,4 @@ Este es el proyecto final del Módulo 2. Es una aplicación de clima enfocada en
 - jQuery (vía CDN)
 
 ## Repositorio
-[Enlace a tu repo de GitHub aquí]
+(https://github.com/Mani34ioT/weather-frontend-m2)
