@@ -1,0 +1,39 @@
+/* ==========================================================
+   3. METODOLOGÍA SMACSS (Scalable and Modular Architecture)
+   ========================================================== */
+
+/* BASE: Estilos globales y resets */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', sans-serif; color: #333; }
+
+/* LAYOUT: Contenedores mayores */
+.l-main-container { max-width: 1000px; margin: 0 auto; padding: 40px; }
+
+
+/* ==========================================================
+   2. METODOLOGÍA OOCSS (Object Oriented CSS)
+   ========================================================== */
+
+/* ESTRUCTURA: Objetos base reutilizables */
+.contenedor-flexible { display: flex; gap: 15px; align-items: center; }
+.btn-base { border: none; font-weight: bold; text-transform: uppercase; padding: 10px 20px; cursor: pointer; }
+
+/* PIEL (Skin): Estilos visuales específicos */
+.tema-oscuro { background-color: #222; color: #ffcc00; }
+.borde-redondeado { border-radius: 12px; }
+
+
+/* ==========================================================
+   1. METODOLOGÍA BEM (Block, Element, Modifier)
+   ========================================================== */
+
+/* BLOQUE: El componente principal */
+.moto-card { background-color: #f4f4f4; border-radius: 8px; padding: 20px; }
+
+/* ELEMENTOS: Partes de la card */
+.moto-card__titulo { font-size: 1.5rem; color: #333; }
+.moto-card__boton { padding: 10px 20px; cursor: pointer; }
+
+/* MODIFICADORES: Variantes de estilo */
+.moto-card--destacado { border: 2px solid #ffcc00; }
+.moto-card__boton--rojo { background-color: #d32f2f; color: white; }
